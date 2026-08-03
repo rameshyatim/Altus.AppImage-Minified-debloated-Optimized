@@ -27,10 +27,10 @@ See:
 - BUILD.md
 - SYSTEM-ELECTRON.md
 
-Original	            
-~114 MiB	            
-Bundled Electron	    
-Portable	            
+Original
+~114 MiB
+Bundled Electron
+Portable
 Slower startup	      
 
 vs
