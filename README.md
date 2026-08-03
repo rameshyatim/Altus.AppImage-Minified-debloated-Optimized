@@ -27,8 +27,16 @@ See:
 - BUILD.md
 - SYSTEM-ELECTRON.md
 
-Original	            Optimized
-~114 MiB	            ~1.1 MiB
-Bundled Electron	    System Electron
-Portable	            Portable
-Slower startup	      Faster startup
+Original	            
+~114 MiB	            
+Bundled Electron	    
+Portable	            
+Slower startup	      
+
+vs
+
+Optimized
+~1.1 MiB
+System Electron
+Portable
+Faster startup
