@@ -1,0 +1,18 @@
+[Desktop Entry]
+Categories=Network;InstantMessaging;
+Comment[es_ES]=
+Comment=
+Exec=AppRun
+GenericName[es_ES]=
+GenericName=
+Icon=altus
+MimeType=
+Name[es_ES]=Altus
+Name=Altus
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

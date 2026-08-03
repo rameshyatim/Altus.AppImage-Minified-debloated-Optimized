@@ -1,0 +1,21 @@
+#!/bin/sh
+HERE="$(dirname "$(readlink -f "$0")")"
+if [ -n "$APPIMAGE" ]; then
+    APPDIR_REAL="$(dirname "$APPIMAGE")"
+    APPNAME="$(basename "$APPIMAGE")"
+    export HOME="$APPDIR_REAL/${APPNAME}.home"
+else
+    export HOME="$HERE/../Altus.AppImage.home"
+fi
+mkdir -p "$HOME"
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_CACHE_HOME="$HOME/.cache"
+export XDG_DATA_HOME="$HOME/.local/share"
+mkdir -p "$XDG_CONFIG_HOME" "$XDG_CACHE_HOME" "$XDG_DATA_HOME"
+exec /usr/bin/electron "$HERE/resources/app" \
+  --user-data-dir="$HOME/electron-profile" \
+  --disable-encryption \
+  --disable-machine-id \
+  --password-store=basic \
+  --no-sandbox \
+  > /dev/null 2>&1
