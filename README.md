@@ -1,17 +1,15 @@
 <p align="center">
   <img src="images/logo.svg" width="180" alt="Altus Logo">
 </p>
-
-<p align="center">
-  <img src="images/screenshot.png" width="900" alt="Altus running">
-</p>
-
 # Altus.AppImage Minified, Debloated, Optimized
-# Altus System Electron AppImage
+Ultra-light AppImage using the native Electron runtime.
 
 A lightweight AppImage launcher for Altus that uses the Electron runtime installed on your Linux system.
 
 This repository does **not** redistribute Altus source code or bundled Electron.
+<p align="center">
+  <img src="images/screenshot.png" width="900" alt="Altus running">
+</p>
 
 It provides:
 
@@ -49,3 +47,4 @@ Optimized
 System Electron
 Portable
 Faster startup
+# Altus System Electron AppImage
