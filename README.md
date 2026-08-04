@@ -2,6 +2,11 @@
   <img src="images/logo.svg" width="180" alt="Altus Logo">
 </p>
 
+<p align="center">
+  <img src="images/screenshot.png" width="900" alt="Altus running">
+</p>
+
+# Altus.AppImage Minified, Debloated, Optimized
 # Altus System Electron AppImage
 
 A lightweight AppImage launcher for Altus that uses the Electron runtime installed on your Linux system.
